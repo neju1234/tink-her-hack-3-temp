@@ -1,0 +1,253 @@
+*{
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#000;
+}
+
+.header,
+.footer{
+    padding:20px; 
+    padding-left: 80px;
+    background-color: #f7f8f8;
+    text-transform:uppercase;
+    font-size: 0.8em;
+}
+
+.header-bottom-bar{
+    display:flex;
+    padding: 20px;
+    padding-left: 80px;
+    gap:15px;
+    box-shadow:0 1px 1px #00000041 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-bar-items{
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.header-bottom{
+    padding-top: 10px;
+}
+
+.selectInput{
+    padding: 10px;
+    width:200px;
+}
+
+.search{
+    width: 40vw;
+}
+
+.fa-mangnifying-glass{
+    background-color: #002f34;
+    color:#fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.sell-button{
+    margin-left:20px ;
+    padding:15px;
+    border-radius: 20px;
+    background-color: #fff;
+    border-bottom:3px solid #3a77ff;
+    border-left:3px solid#ffce32;
+    border-right:3px solid#23e5db;
+    border-top:3px solid #3a77ff;
+}
+
+.top-bar-icons{
+    padding: 20px;
+    font-size:20px;
+}
+
+.li-menu{
+    display:inline-block;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
+.li-menu:hover{
+    cursor:pointer;
+    color: #46aca9;
+}
+
+.txt-bold{
+    font-weight: bold;
+}
+
+.mySlides{
+    width:100%;
+    border-radius: 5px;
+}
+
+.header-ad,
+.cat-area,
+.classifieds-cards-area{
+    padding: 0 80px;
+    margin-top: 10px;
+}
+
+.cat-card{
+    max-width: 100px;
+    display:inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor:pointer;
+    margin :20px 20px;
+    padding-right: 100px;
+    margin-left: 0;
+    grid-template-columns: repeat(7,1fr);
+    flex-wrap:wrap; 
+   
+}
+.cats-crard > img{
+    text-align: center;
+    border: 1px solid #ddd;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            display:flex;
+            gap:5px;
+            
+    
+}
+.cat-card > img{
+
+   width: 50%; /* Adjust width for 7 items per row */
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 30px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            display:flex;
+            gap: 20px;
+            
+
+
+}
+
+.ad-card{
+    cursor:pointer;
+    display: inline-block;
+    border: 1px solid#bfbfbf;
+    width: 300px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.ad-card img{
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pricing{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ad-desc,
+.location{
+    padding: 10px;
+}
+
+.fa-heart{
+    float: right;
+}
+
+.small-txt{
+    font-size:10px;
+    color:#6c6c6c;
+    margin-top: 5px;
+}
+
+.bottom-link-image{
+width: 100%;
+}
+.bottom-link-img{
+    width: 100%;
+}
+
+.footer-links-head{
+margin-bottom: 10px;
+}
+.footer-links-head{
+    margin-bottom: 10px;
+}
+
+.footer-links::marker{
+    list-style-type:none;
+    margin-bottom: 3px;
+    color:#6c6c6c;
+}
+
+.footer-column{
+    margin-right: 20px;
+    display: inline-block;
+    max-width: 300px;
+}
+.footer-column2{
+    width: 20px;
+}
+
+.social-footer-links{
+    margin-right: 10px;
+}
+
+.appDownloadImages{
+    margin-top:5px;
+}
+
+.footer-credit{
+    text-align:end;
+}
+
+.footer-credit-bg{
+    padding: 20px;
+    padding-right: 80px;
+    background-color: #002f34;
+}
+
+.footer-credit-p{
+    color:#fff;
+    font-size: 12px;
+}
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navdiv ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navdiv ul li {
+    padding: 10px 15px;
+}
+
+.navdiv ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+

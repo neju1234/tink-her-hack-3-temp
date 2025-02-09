@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Mobile Ad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>Post a Mobile Ad</h1>
+    </header>
+
+    <!-- Ad Posting Form -->
+    <section>
+        <form id="postAdForm">
+            <label>Phone Model:</label>
+            <input type="text" id="phoneModel" required>
+
+            <label>Price ($):</label>
+            <input type="number" id="price" required>
+
+            <label>Description:</label>
+            <textarea id="description" required></textarea>
+
+            <label>Image URL:</label>
+            <input type="text" id="imageUrl" required placeholder="Paste image link">
+
+            <button type="submit">Post Ad</button>
+        </form>
+    </section>
+
+</body>
+</html>
